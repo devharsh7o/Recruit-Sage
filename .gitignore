@@ -1,0 +1,71 @@
+# ===========================
+# Python / FastAPI
+# ===========================
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+.pytest_cache/
+pytest_cache/
+.cache/
+.coverage*
+htmlcov/
+dist/
+build/
+*.egg-info/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+# If you keep uploaded files locally during dev:
+uploads/
+
+# ===========================
+# Node / Next.js
+# ===========================
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+# Keep lockfile only if your team wants strict reproducibility; otherwise ignore.
+# If you want to keep it, remove the line above.
+
+# ===========================
+# Environment / Secrets
+# ===========================
+.env
+.env.*
+.env.local
+# If you have backend or frontend specific env files:
+recruitsage-backend/.env
+recruitsage-frontend/.env.local
+
+# ===========================
+# OS / Editors
+# ===========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===========================
+# Logs / Temp
+# ===========================
+*.log
+tmp/
+temp/
+
+# ===========================
+# Misc build artifacts
+# ===========================
+*.bak
+*.orig
