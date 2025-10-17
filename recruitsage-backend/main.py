@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
+from app.routes import jobs
 from app.routes import auth, jobs, resumes, rank
 import os
 
@@ -25,6 +26,8 @@ app.include_router(auth.router, prefix="/auth", tags=["auth"])
 app.include_router(jobs.router, prefix="/jobs", tags=["jobs"])
 app.include_router(resumes.router, prefix="/resumes", tags=["resumes"])
 app.include_router(rank.router, prefix="/rank", tags=["rank"])
+
+app.include_router(jobs.router)
 
 @app.get("/health")
 def health():
