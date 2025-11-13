@@ -1,4 +1,5 @@
-Project Overview
+Project Overview:
+
 RecruitSage is a full-stack recruitment solution designed to streamline candidate management, automate resume screening, and deliver explainable AI-powered ranking for better hiring decisions. The platform integrates user-friendly dashboards for recruiters and candidates, supports seamless job postings and applications, and leverages cutting-edge artificial intelligence to enhance accuracy and efficiency in the recruitment process.​
 
 Key Features
