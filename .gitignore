@@ -1,4 +1,5 @@
-"node_modules/" 
-".venv/" 
-".env*" 
-"recruit7sage/"   # Ignore empty folder
+node_modules/ 
+.venv/ 
+.env* 
+*.log 
+/recruit7sage/ 
